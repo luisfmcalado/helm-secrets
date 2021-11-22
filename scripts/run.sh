@@ -28,6 +28,8 @@ if on_cygwin; then
     export TMPDIR
 fi
 
+assdkljdaslkjadsjllkas
+
 # Create a base temporary directory
 TMPDIR="${HELM_SECRETS_DEC_TMP_DIR:-"$(mktemp -d)"}"
 export TMPDIR
