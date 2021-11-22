@@ -56,6 +56,8 @@ trap _trap EXIT
 
 load_secret_driver "$SECRET_DRIVER"
 
+echo "testing..........."
+
 while true; do
     case "${1:-}" in
     enc)
